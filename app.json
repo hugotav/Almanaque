@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Almanaque",
+    "slug": "App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/foto-cinema-app.png",
+    "splash": {
+      "image": "./assets/foto-cinema-app.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "backgroundColor": "#FFFFFF",
+      "versionCode":2,
+      "package": "com.hugotav.App",
+      "permissions": [ ]
+
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
